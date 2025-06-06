@@ -1,0 +1,136 @@
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 70%; }
+    100% { opacity: 1; }
+}
+* {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #171717;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section_body {
+    height: 100%;
+    background: #444444;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+
+header{
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    /* background-color:rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+}
+
+.header_logo{
+    margin: -20px;
+    padding: 0px;
+    height: 100px;
+    width: auto;
+}
+
+.nav_bar {
+    padding-top: 20px;
+}
+
+.nav_bar ul li {
+    margin-right: 20px;
+    list-style: none;
+
+}
+.nav_bar ul li:last-child {
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    position: relative;    
+}
+
+.menu_button {
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    background-color:rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.menu_button:hover {
+    cursor: pointer;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.7);
+}
+
+.menu_button_img {
+    margin-top: 4px;
+    margin-left: -1px;
+    height: 20px;
+    width: auto;
+}
+
+
+.principal {
+    display: flex;
+    float: right;
+    border-right: 20%;
+    font-size: larger;
+    color: #dcc2e4;
+
+}
+
+.principal li:hover{
+    cursor: pointer;
+    color: white;
+
+}
+
+.background {
+    width: 90%;
+    height: 100vh;
+    border-radius: 20px;
+    background-image: url("../img/c_plus_plus.jpg");
+    background-size: 60px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.background h2 {
+    font-size: xx-large;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+    padding-top: 4%;
+    color: white;
+}
+
+table {
+    margin-block: 5%;
+    font-size: x-large;
+}
+
+.levels td {
+    color: #dcc2e4;
+    padding: 15px;
+    opacity: 90%;
+    background-color: #DA0037;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.levels td:hover {
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section_body">
+        <header>
+        <h1>
+            <a href="index.html">
+                <img class="header_logo" src="./img/cover.png" alt="HOME" title="HOME">
+            </a>
+        </h1>
+        <nav class="nav_bar">
+            
+			<ul class="principal">
+				<a href="index.html" title="HOME"><li>Home</li></a>
+				<a href="about.html"><li>About us</li></a>
+				<a href="contact.html"><li>Contact</li></a>
+				<a href="register.html"><li>Register</li></a>
+				<a href="log.html"><li>Log In</li></a>
+			</ul>
+            <button class="menu_button">
+                <img class="menu_button_img" src="./img/menu_icon.jpg" alt="">
+            </button>
+        </nav>
+        </header>
+        <center>
+        <section class="registers">
+            <article id="form">
+                <h2>Register</h2>
+                <form name="contact_form" action="" method="POST">
+                    <table border="0">
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td>Last name:</td>
+                            <td><input type="text" name="surname"></td>
+                        </tr>
+                        <tr>
+                            <td>Genre:</td>
+                            <td>
+                                <input  id="radio" type="radio" value="male" name="genre">Male
+                                <input id="radio" type="radio" value="female" name="genre">Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Place of residence:</td>
+                            <td>
+                                <select name="state">
+                                    <option value="mexico">Mexico</option>
+                                    <option value="nuevo_leon">Nuevo Leon</option>
+                                    <option value="veracruz">Veracruz</option>
+                                    <option value="durango">Durango</option>
+                                    <option value="chihuahua">Chihuahua</option>
+                                    <option value="guadalajara">Guadalajara</option>
+                                    <option value="coahuila">Coahuila</option>
+                                    <option value="morelos">Morelos</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td><input type="password" name="password" id="password"></td>
+                        </tr>
+                        <tr>
+                            <td>Confirm password:</td>
+                            <td><input type="password" name="password" id="password"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Register" name="sumbit">
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </form>
+            </article>
+        </section>
+        </center>
+    </section>
+</body>
+</html>
